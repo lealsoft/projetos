@@ -1,0 +1,4 @@
+org/acme/context/Price.class
+META-INF/panache-archive.marker
+org/acme/context/EmitterResource.class
+org/acme/context/PriceResource.class
