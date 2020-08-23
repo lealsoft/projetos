@@ -1,4 +1,4 @@
-package com.bb.desafio.rest;
+package com.bb.desafio.rest.resource;
 
 import java.util.Set;
 
@@ -12,6 +12,7 @@ import org.eclipse.microprofile.rest.client.inject.RestClient;
 import org.jboss.resteasy.annotations.jaxrs.PathParam;
 
 import com.bb.desafio.models.Cotacao;
+import com.bb.desafio.rest.service.CotacaoService;
 
 @Path("/cotacao")
 public class CotacaoResource {

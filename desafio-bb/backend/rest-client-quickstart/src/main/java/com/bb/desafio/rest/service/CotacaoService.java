@@ -1,4 +1,4 @@
-package com.bb.desafio.rest;
+package com.bb.desafio.rest.service;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package com.bb.desafio.rest;
+package com.bb.desafio.rest.resource;
 
 import java.util.ArrayList;
 import javax.inject.Inject;
@@ -8,6 +8,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 import com.bb.desafio.models.ODataContext;
+import com.bb.desafio.rest.service.MoedasService;
 
 @Path("/cotacao")
 public class MoedasResource {
